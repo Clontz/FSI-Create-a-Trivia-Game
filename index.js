@@ -18,8 +18,8 @@ window.alert ('Your score is: ' +userScore)
 }
 while (playAgain === true) {
     playGame()
-    let userChoice = ('Would you like to play the game again? Yes or No')
-    if(userChoice = 'Yes'){
+    let userChoice = window.prompt('Would you like to play the game again? Yes or No.')
+    if(userChoice === 'Yes'){
         playAgain = true;
     }
     else {
